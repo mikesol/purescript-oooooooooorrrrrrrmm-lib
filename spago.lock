@@ -3,20 +3,18 @@ workspace:
     oooooooooorrrrrrrmm-lib:
       path: ./
       dependencies:
-        - console
-        - datetime
-        - effect
-        - foreign
-        - nullable
-        - prelude
-        - record
-        - yoga-json
+        - datetime: ">=6.1.0 <7.0.0"
+        - foreign: ">=7.0.0 <8.0.0"
+        - maybe: ">=6.0.0 <7.0.0"
+        - nullable: ">=6.0.0 <7.0.0"
+        - prelude: ">=6.0.1 <7.0.0"
+        - record: ">=4.0.0 <5.0.0"
+        - yoga-json: ">=5.1.0 <6.0.0"
       test_dependencies: []
       build_plan:
         - arrays
         - bifunctors
         - catenable-lists
-        - console
         - const
         - contravariant
         - control
@@ -615,13 +613,6 @@ packages:
       - prelude
       - tuples
       - unfoldable
-  console:
-    type: registry
-    version: 6.1.0
-    integrity: sha256-CxmAzjgyuGDmt9FZW51VhV6rBPwR6o0YeKUzA9rSzcM=
-    dependencies:
-      - effect
-      - prelude
   const:
     type: registry
     version: 6.0.0
