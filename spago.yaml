@@ -1,0 +1,18 @@
+package:
+  name: oooooooooorrrrrrrmm-lib
+  dependencies:
+    - console
+    - datetime
+    - effect
+    - foreign
+    - nullable
+    - prelude
+    - record
+    - yoga-json
+  test:
+    main: Test.Main
+    dependencies: []
+workspace:
+  packageSet:
+    registry: 57.0.0
+  extraPackages: {}
